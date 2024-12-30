@@ -5,7 +5,8 @@ setup(
     version=0.1,
     packages=find_packages(),
     install_requires=[
-
+        "mpmath",
+        "sympy",
     ],
     entry_points={
         "console_scripts": [
@@ -13,7 +14,7 @@ setup(
         ],
     },
     author="Niclas Dauster",
-    description="An advanced command line calculator"
+    description="An advanced command line calculator",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/NMD03/acc",
